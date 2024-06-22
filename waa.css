@@ -1,0 +1,133 @@
+.header{
+    background-color: #fdb935;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    
+}
+.header ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 26px;
+    padding: 10px 60px ;
+}
+.main-left{
+    width: 400px;
+}
+
+.main reght{
+    width: 400px;
+}
+.main-parent{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.main-right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 90px;
+   
+   margin-left: 70px;
+   
+
+}
+.main-left button{
+    background-color: #fdb935;
+    padding: 16PX 30px;
+    border: none;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 30px;
+    border-radius: 8px;
+    
+}
+.footer{
+    background-color: #fdb935;
+    height: 100px;
+    margin-top: 30px;
+    padding-top: 12px;
+    text-align: center;
+
+}
+.footer i{
+    font-size: 30px;
+    padding: 8px;
+}
+
+  .header i{
+    display:none ;
+  }
+
+
+
+
+    @media screen and (max-width : 600px) {
+    
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    
+       .header h1{ 
+    
+       font-size: 30px; 
+       width: 370px;
+         margin-top: 40px; 
+         margin-left: 30px;
+        
+         
+       
+       }
+       .header {
+        padding: 0px;
+        
+       }
+       .header ul{
+        display: none;
+          
+       }
+
+       .header i{
+        display: block;
+        
+        margin-right: 30px;
+        font-size: 50px;
+         margin-top: 40px;
+       }
+
+      
+       .main-left h1{
+        margin-left: 40px;
+       
+       }
+       .main-left {
+        
+    
+    
+       }
+       .main-left p {
+       margin-left: 40px;
+       margin-top: 20px;
+       font-size: 19px;
+       
+       }
+       .main-left button{
+     margin-left: 8860px;
+       }
+       .main-right img{
+       
+       margin-top: 40px;
+       margin-left: 30px;
+       }
+       .main-parent{
+        flex-direction: column; 
+       }
+       .footer-p i{
+        gap: 50px;
+       }
+    
+    }
